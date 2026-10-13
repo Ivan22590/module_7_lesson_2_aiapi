@@ -1,0 +1,12 @@
+# Минимальный набор зависимостей проекта.
+# Устанавливать ТОЛЬКО в виртуальное окружение .venv:
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+
+# /llm — клиент ProxyAPI (OpenAI-совместимый API)
+openai>=1.40
+
+# Общая загрузка переменных окружения из .env (все модули)
+python-dotenv>=1.0
+
+# /tgbot — Telegram-бот (aiogram, асинхронный)
+aiogram>=3.31,<4

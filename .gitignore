@@ -1,0 +1,28 @@
+# Секреты и локальные переменные окружения
+.env
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Python-артефакты
+__pycache__/
+*.py[cod]
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+
+# Логи и локальные данные
+*.log
+logs/
+.vkbottle/
+__pycache__/
+
+# Состояния ботов (JSON-хранилище run_chat_llm.py и демо)
+state/
+
+# Редакторы и ОС
+.idea/
+.vscode/
+.DS_Store
